@@ -1,0 +1,32 @@
+ /*노멀 라이징*/
+*{
+    padding:  0;
+    margin: 0;
+}
+
+ul,li {
+    list-style: none ;
+    margin:  0;
+    padding: 0 ;
+  }
+
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+
+/* 라이브러리 */
+.row:after{
+    display: block;
+    content: "";;
+    clear: both;
+}
+
+.cell{
+    float: left;
+}
+
+.cell-r{
+    float: right;
+}
+/* 스타일 */
