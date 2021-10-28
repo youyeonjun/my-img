@@ -1,8 +1,28 @@
 $(document).ready(function(){
-    $(".slide-box").slick({
-        dots:true ,
-        arrows:true ,
+    $('.slider-box-1 > .slick').slick({
+        dots:true,
+    draggable:false,
+    arrows:true,
+    adaptiveHeight:true,
+    centerMode:true,
+    centerPadding:'300px',
+    responsive: [
+        {
+          breakpoint: 1440,
+          settings: {
+            centerPadding:'20vw',
+          }
+        },
+        {
+          breakpoint: 770,
+          settings: {
+            centerPadding:'0',
+            arrows:false,
+          }
+        },
+    ],
     });
+    
 
     $(".header-wrap > .header-box > ul > li").mouseover(function(){
         
