@@ -1,26 +1,16 @@
 $(document).ready(function(){
     $('.slider-box-1 > .slick').slick({
         dots:true,
-    draggable:false,
-    arrows:true,
-    adaptiveHeight:true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover:false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
     centerMode:true,
-    centerPadding:'300px',
-    responsive: [
-        {
-          breakpoint: 1440,
-          settings: {
-            centerPadding:'20vw',
-          }
-        },
-        {
-          breakpoint: 770,
-          settings: {
-            centerPadding:'0',
-            arrows:false,
-          }
-        },
-    ],
+    centerPadding:0,
+    arrows:true,
+    prevArrow:".slider-box-1 > .arrows > .btn-arrow-left",
+    nextArrow:".slider-box-1 > .arrows > .btn-arrow-right"
     });
     
 
