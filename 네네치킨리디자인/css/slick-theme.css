@@ -202,3 +202,14 @@
     opacity: .75;
     color: black;
 }
+
+
+.slick-active{
+    opacity: 0.5;
+}
+
+.slick-current{
+    opacity: 1;
+    transform: scale(1.2);
+    z-index: 99;
+}
