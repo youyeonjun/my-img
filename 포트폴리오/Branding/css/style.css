@@ -1,0 +1,124 @@
+ /*노멀 라이징*/
+ @font-face {
+    font-family: 'OTWelcomeBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeBA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LotteMartHappy';
+    font-style: normal;
+    font-weight: bold;
+    src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff') format('woff');
+  }
+
+body{
+    background-color: #F6F2F2;
+    font-family: 'OTWelcomeBA';
+}
+*{
+    padding:  0;
+    margin: 0;
+}
+
+ul,li {
+    list-style: none ;
+    margin:  0;
+    padding: 0 ;
+  }
+
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+
+/* 라이브러리 */
+.row:after{
+    display: block;
+    content: "";;
+    clear: both;
+}
+
+.cell{
+    float: left;
+}
+
+.cell-r{
+    float: right;
+}
+/* 스타일 */
+
+.top-wrap{
+    width: 100%;
+    height:100px;
+    background-color: #ddd;
+}
+
+.top-wrap > .top-bar{
+    width: 1700px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.top-wrap > .top-bar > .top-logo{
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.top-wrap > .top-bar > .top-menu > ul > a > li{
+    margin-right:40px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 100px;
+}
+
+.top-wrap > .top-bar > .top-menu > ul > a > li:hover{
+    background-color: black;
+    color: white;
+    transition: 0.8s;
+}
+
+.main-wrap{
+    width: 1700px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.main-wrap > .main-text{
+    width: 50%;
+    margin-left: 100px;
+}
+
+.main-wrap > .main-text > .main-text1{
+    font-size: 80px;
+    margin-top: 50px;
+}
+
+.main-wrap > .main-text > .main-text2{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 100px;
+    color: #D30000;
+}
+
+.main-wrap > .main-text > .main-text3{
+    font-size: 80px;
+    margin-top: 50px;
+    margin-left: 650px;
+}
+
+.main-wrpa > .main-img{
+    width: 50%;
+}
+
+.main-wrap > .main-img{
+    width: 43%;
+    height: 500px;
+    border: 2px solid black;
+}
+
+.main-wrap > .main-img > img{
+    width: 100%;
+    height: 100%;
+}
+
