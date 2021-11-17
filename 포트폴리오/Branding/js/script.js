@@ -1,5 +1,18 @@
 $(document).ready(function(){
-   
+    const trigger = new ScrollTrigger.default({
+        trigger: {
+            once: false,
+            offset: {
+                element: {
+                    x: 0,
+                    y: 0.5
+                },
+            }
+        }
+    });
+    trigger.add('[data-trigger1]');
+    trigger.add('[data-trigger2]');
+
     $(".header-wrap > .header-box > ul > li").mouseover(function(){
         
         var con__height ;

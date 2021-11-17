@@ -55,13 +55,12 @@ ul,li {
 }
 
 .top-wrap > .top-bar{
-    width: 1700px;
+    width: 1400px;
     height: 100%;
     margin: 0 auto;
 }
 
 .top-wrap > .top-bar > .top-logo{
-    margin-left: 100px;
     margin-top: 5px;
 }
 
@@ -79,7 +78,7 @@ ul,li {
 }
 
 .main-wrap{
-    width: 1700px;
+    width: 1400px;
     margin: 0 auto;
     margin-top: 80px;
 }
