@@ -2,9 +2,11 @@ $(document).ready(function(){
     const trigger = new ScrollTrigger.default({
         trigger: {
             once: false,
+            markers: true,
+            start: "top center",
             offset: {
                 element: {
-                    x: 0,
+                    x: 1,
                     y: 0.5
                 },
             }
@@ -12,6 +14,16 @@ $(document).ready(function(){
     });
     trigger.add('[data-trigger1]');
     trigger.add('[data-trigger2]');
+
+    new fullpage('#fullpage', {
+    navigation: true,
+    responsiveWidth: 700,
+    anchors: ['home', 'about-us', 'contact'],
+    parallax: true,
+    onLeave: function(origin, destination, direction){
+        console.log("Leaving section" + origin.index);
+    },
+});
 
     $(".header-wrap > .header-box > ul > li").mouseover(function(){
         
