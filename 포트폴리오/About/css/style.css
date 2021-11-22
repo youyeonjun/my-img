@@ -67,20 +67,14 @@ ul,li {
     margin-top: 5px;
 }
 
-.top-wrap > .top-bar > .top-menu > ul > a > li{
+.top-wrap > .top-bar > .top-menu > ul > li > a {
     margin-right:40px;
     font-weight: bold;
     font-size: 28px;
     line-height: 100px;
 }
 
-.top-wrap > .top-bar > .top-menu > ul > a > li:hover{
-    background-color: black;
-    color: white;
-    transition: 0.8s;
-}
-
-.top-wrap > .top-bar > .top-menu > ul > a > .now{
+.top-wrap > .top-bar > .top-menu > ul > .now{
     color: #D30000;
 }
 
