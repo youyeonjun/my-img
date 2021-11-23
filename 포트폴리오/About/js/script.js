@@ -1,4 +1,18 @@
 $(document).ready(function(){
+    const trigger = new ScrollTrigger.default({
+        trigger: {
+            once: false,
+            markers: true,
+            start: "top center",
+            offset: {
+                element: {
+                    x: 1,
+                    y: 0.5
+                },
+            }
+        }
+    });
+    trigger.add('[data-trigger1]');
     
     $(".header-wrap > .header-box > ul > li").mouseover(function(){
         
