@@ -163,9 +163,23 @@ ul,li {
 }
 
 .html-wrap > .html-box > .html-box2{
-    width: 90%;
+    width: 0%;
     height: 100%;
     background-color: #E44F26;
+}
+
+.html-wrap > .html-box > .html-box2.active{
+    animation: progressbar;
+    width: 90%;
+}
+
+@keyframes progressbar { 
+    0% { 
+        width: 0%; 
+    } 
+    100% { 
+        width: 90%; 
+    } 
 }
 
 .css-wrap{
