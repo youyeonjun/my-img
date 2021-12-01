@@ -50,11 +50,12 @@ ul,li {
 
 .top-wrap{
     width: 100%;
-    height:100px;
-    background-color: #ddd;
+    height:105px;
+    background-color: #F6F2F2;
     position: fixed;
     z-index: 99;
     top: 0;
+    border-bottom: 1px solid #ddd;
 }
 
 .top-wrap > .top-bar{
@@ -64,7 +65,7 @@ ul,li {
 }
 
 .top-wrap > .top-bar > .top-logo{
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .top-wrap > .top-bar > .top-menu > ul > li > a{
@@ -120,9 +121,11 @@ ul,li {
 }
 
 .main-wrap > .main-img{
-    width: 49%;
-    height: 700px;
+    width: 47%;
+    height: 600px;
     border: 2px solid black;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
 .main-wrap > .main-img > img{

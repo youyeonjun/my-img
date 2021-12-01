@@ -50,10 +50,12 @@ ul,li {
 
 .top-wrap{
     width: 100%;
-    height:100px;
-    background-color: #ddd;
+    height:105px;
+    background-color: #F6F2F2;
     position: fixed;
     z-index: 99;
+    top: 0;
+    border-bottom: 1px solid #ddd;
 }
 
 .top-wrap > .top-bar{
@@ -63,7 +65,7 @@ ul,li {
 }
 
 .top-wrap > .top-bar > .top-logo{
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .top-wrap > .top-bar > .top-menu > ul > li > a{
@@ -118,9 +120,11 @@ ul,li {
 }
 
 .main-wrap > .main-img{
-    width: 49%;
-    height: 700px;
+    width: 47%;
+    height: 600px;
     border: 2px solid black;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
 .main-wrap > .main-img > img{
@@ -131,7 +135,7 @@ ul,li {
 .main-box-wrap{
     width: 1400px;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 220px;
 }
 
 .main-box-wrap > article > .main-box1 > .main-box1-1{
@@ -191,7 +195,7 @@ ul,li {
 .main-circle{
     width: 1400px;
     margin: 0 auto;
-    margin-top: 130px;
+    margin-top: 150px;
 }
 
 .main-circle > .main-circle1{
@@ -313,7 +317,7 @@ ul,li {
 }
 
 .circle-text-wrap > .circle-text3{
-    margin-left: 8%;
+    margin-left: 7%;
 }
 
 .div-section{
@@ -324,6 +328,7 @@ ul,li {
 .color-wrap{
     width: 1400px;
     margin: 0 auto;
+    margin-top: 180px;
 }
 
 .color-wrap > .color-title{
@@ -356,7 +361,7 @@ ul,li {
     width: 1400px;
     height: 150px;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 165px;
 }
 
 .logo-wrap > .logo-c{
@@ -400,7 +405,7 @@ ul,li {
 .logo-text{
     width: 1400px;
     margin: 0 auto;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .logo-text > .logo-text-c{
