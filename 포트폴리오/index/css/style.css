@@ -180,7 +180,7 @@ ul,li {
     background-image: url("../img/bg-1.png");
     background-size: 1522px;
     background-position: 0;
-    top: 75%;
+    top: 77%;
     left:0;
     animation-name: bg-1;
     animation-duration: 10s;
@@ -196,7 +196,7 @@ ul,li {
     background-image: url("../img/bg-2.png");
     background-size: 1520px;
     background-position: 50%;
-    top: 87%;
+    top: 88%;
     left:0;
     animation-name: bg-2;
     animation-duration: 12s;
