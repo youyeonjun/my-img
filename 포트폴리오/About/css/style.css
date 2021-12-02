@@ -149,6 +149,7 @@ ul,li {
 .html-wrap > .html-img > img{
     width: 60%;
     margin-left: 100%;
+    cursor: pointer;
 }
 
 .html-wrap > .html-box{
@@ -194,6 +195,7 @@ ul,li {
 .css-wrap > .css-img > img{
     width: 60%;
     margin-left: 100%;
+    cursor: pointer;
 }
 
 .css-wrap > .css-box{
@@ -225,6 +227,7 @@ ul,li {
 .js-wrap > .js-img > img{
     width: 60%;
     margin-left: 100%;
+    cursor: pointer;
 }
 
 .js-wrap > .js-box{
@@ -256,6 +259,7 @@ ul,li {
 .ps-wrap > .ps-img > img{
     width: 60%;
     margin-left: 100%;
+    cursor: pointer;
 }
 
 .ps-wrap > .ps-box{

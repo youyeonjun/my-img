@@ -13,6 +13,10 @@ $(document).ready(function(){
         }
     });
     trigger.add('[data-trigger1]');
+
+    $('.html-img').click(function(){
+        $('.html-box2').css({"width": "90%","transition": "2s"});
+    });
     
     $(".header-wrap > .header-box > ul > li").mouseover(function(){
         
