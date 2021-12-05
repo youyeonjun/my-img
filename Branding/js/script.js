@@ -17,7 +17,7 @@ $(document).ready(function(){
 
     gsap.registerPlugin(ScrollTrigger);
 
-    gsap.to('circle-text1',{
+    gsap.to('.main-box1',{
         x: 400,
         rotation: 360,
         duration: 4
