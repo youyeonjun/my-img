@@ -199,95 +199,95 @@ ul,li {
     margin-top: 150px;
 }
 
-.main-circle-wrap > .main-box1{
+.main-circle-wrap > .main-box-1{
     width: 33.333%;
     float: left;
     margin: 0 auto;
 }
 
-.main-circle-wrap > .main-box1 > .circle{
+.main-circle-wrap > .main-box-1 > .circle{
     margin: 0 auto;
-    width: 80%;
-    height: 300px;
+    width: 70%;
+    height: 275px;
     background-color: #E6E5E1;
     border-radius: 50%;
 }
 
-.main-circle-wrap > .main-box1 > .circle > img{
+.main-circle-wrap > .main-box-1 > .circle > img{
     width: 21%;
     margin-left: 38%;
     margin-top: 6%;
 }
 
-.main-circle-wrap > .main-box1 > .circle > p{
+.main-circle-wrap > .main-box-1 > .circle > p{
     text-align: center;
     font-size: 35px;
     line-height: 4;
 }
 
-.main-circle-wrap > .main-box1 > p{
+.main-circle-wrap > .main-box-1 > p{
     text-align: center;
     font-size: 28px;
     line-height: 4;
 }
 
-.main-circle-wrap > .main-box2{
+.main-circle-wrap > .main-box-2{
     width:33.333%;
     float: left;
 }
 
-.main-circle-wrap > .main-box2 > .circle{
+.main-circle-wrap > .main-box-2 > .circle{
     margin: 0 auto;
-    width: 80%;
-    height: 300px;
+    width: 70%;
+    height: 275px;
     background-color: #E6E5E1;
     border-radius: 50%;
 }
 
-.main-circle-wrap > .main-box2 > .circle > img {
+.main-circle-wrap > .main-box-2 > .circle > img {
     width: 21%;
     margin-left: 38%;
     margin-top: 6%;
 }
 
-.main-circle-wrap > .main-box2 > .circle > p{
+.main-circle-wrap > .main-box-2 > .circle > p{
     text-align: center;
     font-size: 35px;
     line-height: 4;
 }
 
-.main-circle-wrap > .main-box2 > p{
+.main-circle-wrap > .main-box-2 > p{
     text-align: center;
     font-size: 28px;
     line-height: 4;
 }
 
-.main-circle-wrap > .main-box3{
+.main-circle-wrap > .main-box-3{
     width: 33.333%;
     float: left;
 }
 
-.main-circle-wrap > .main-box3 > .circle{
+.main-circle-wrap > .main-box-3 > .circle{
     margin: 0 auto;
-    width: 80%;
-    height: 300px;
+    width: 70%;
+    height: 275px;
     background-color: #E6E5E1;
     border-radius: 50%;
 }
 
-.main-circle-wrap > .main-box3 > p{
+.main-circle-wrap > .main-box-3 > p{
     text-align: center;
     font-size: 28px;
     line-height: 4;
 }
 
-.main-circle-wrap > .main-box3 > .circle > img{
+.main-circle-wrap > .main-box-3 > .circle > img{
     width: 21%;
     margin-left: 38%;
     margin-top: 6%;
 }
 
-.main-circle-wrap > .main-box3 > .circle > p{
+.main-circle-wrap > .main-box-3 > .circle > p{
     text-align: center;
     font-size: 35px;
     line-height: 4;

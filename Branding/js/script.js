@@ -15,13 +15,14 @@ $(document).ready(function(){
     trigger.add('[data-trigger1]');
     trigger.add('[data-trigger2]');
 
-    gsap.registerPlugin(ScrollTrigger);
+    // gsap.registerPlugin(ScrollTrigger);
 
-    gsap.to('.main-box1',{
-        x: 400,
-        rotation: 360,
-        duration: 4
-    });
+    // gsap.to('.main-box-1', {
+    //     scrollTrigger: ".tiger",
+    //     x: 400,
+    //     rotation: 360,
+    //     duration: 4
+    // })
 
     $(".header-wrap > .header-box > ul > li").mouseover(function(){
         
