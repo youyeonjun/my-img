@@ -192,133 +192,120 @@ ul,li {
     bottom: 0;
 }
 
-.main-circle{
-    width: 1400px;
+.main-circle-wrap{
+    width: 1200px;
+    height: 320px;
     margin: 0 auto;
     margin-top: 150px;
-}
-
-.main-circle > .main-circle1{
-    width: 250px;
-    height: 250px;
-    background-color: #E6E5E1;
-    border-radius: 50%;
-    margin-left: 10%;
     position: relative;
 }
 
-.main-circle > .main-circle1 > img{
+.main-circle-wrap > .main-box-1{
     position: absolute;
-    left:39%;
-    top:10%;
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-}
-
-.main-circle > .main-circle1:hover > img{
-    transform: scale(1.3);
-}
-
-.main-circle > .main-circle1:hover > p{
-    font-size: 34px;
-    left: 24%;
-}
-
-.main-circle > .main-circle1 > p{
-    font-size: 28px;
-    position: absolute;
-    top: 50%;
-    left: 27%;
-    transition: all 0.3s ease-in-out;
-}
-
-.main-circle > .main-circle2{
-    width: 250px;
-    height:250px;
-    background-color: #E6E5E1;
-    border-radius: 50%;
-    margin-left: 12%;
-    position: relative;
-}
-
-.main-circle > .main-circle2 > img{
-    position: absolute;
-    left:39%;
-    top:10%;
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-}
-
-.main-circle > .main-circle2:hover > img{
-    transform: scale(1.3);
-}
-
-.main-circle > .main-circle2:hover > p{
-    font-size: 34px;
-    left: 13%;
-}
-
-.main-circle > .main-circle2 > p{
-    font-size: 28px;
-    position: absolute;
-    top: 50%;
-    left: 17%;
-    transition: all 0.3s ease-in-out;
-}
-
-
-.main-circle > .main-circle3{
-    width: 250px;
-    height: 250px;
-    background-color: #E6E5E1;
-    border-radius: 50%;
-    margin-left: 12%;
-    position: relative;
-}
-
-.main-circle > .main-circle3 > img{
-    position: absolute;
-    left:39%;
-    top:10%;
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-}
-
-.main-circle > .main-circle3:hover > img{
-    transform: scale(1.3);
-}
-
-.main-circle > .main-circle3:hover > p{
-    font-size: 34px;
-    left: 25%;
-}
-
-.main-circle > .main-circle3 > p{
-    font-size: 28px;
-    position: absolute;
-    top: 50%;
-    left: 29%;
-    transition: all 0.3s ease-in-out;
-}
-
-.circle-text-wrap{
-    width: 1400px;
+    width: 400px;
+    float: left;
     margin: 0 auto;
-    font-size: 30px;
-    margin-top: 40px;
+    left: -400px;
+    opacity: 0;
 }
 
-.circle-text-wrap > .circle-text1{
-    margin-left: 9%;
+.main-circle-wrap > .main-box-1 > .circle{
+    margin: 0 auto;
+    width: 70%;
+    height: 275px;
+    background-color: #E6E5E1;
+    border-radius: 50%;
 }
 
-.circle-text-wrap > .circle-text2{
-    margin-left: 9.5%;
+.main-circle-wrap > .main-box-1 > .circle > img{
+    width: 21%;
+    margin-left: 38%;
+    margin-top: 6%;
 }
 
-.circle-text-wrap > .circle-text3{
-    margin-left: 8%;
+.main-circle-wrap > .main-box-1 > .circle > p{
+    text-align: center;
+    font-size: 35px;
+    line-height: 4;
 }
+
+.main-circle-wrap > .main-box-1 > p{
+    text-align: center;
+    font-size: 28px;
+    line-height: 4;
+}
+
+.main-circle-wrap > .main-box-2{
+    position: absolute;
+    width: 400px;
+    float: left;
+    left: 400px;
+    opacity: 0;
+    transition: 4s;
+}
+
+.main-circle-wrap > .main-box-2 > .circle{
+    margin: 0 auto;
+    width: 70%;
+    height: 275px;
+    background-color: #E6E5E1;
+    border-radius: 50%;
+}
+
+.main-circle-wrap > .main-box-2 > .circle > img {
+    width: 21%;
+    margin-left: 38%;
+    margin-top: 6%;
+}
+
+.main-circle-wrap > .main-box-2 > .circle > p{
+    text-align: center;
+    font-size: 35px;
+    line-height: 4;
+}
+
+.main-circle-wrap > .main-box-2 > p{
+    text-align: center;
+    font-size: 28px;
+    line-height: 4;
+}
+
+.main-circle-wrap > .main-box-3{
+    width: 400px;
+    position: absolute;
+    float: left;
+    right: -400px;
+    opacity: 0;
+}
+
+.main-circle-wrap > .main-box-3 > .circle{
+    margin: 0 auto;
+    width: 70%;
+    height: 275px;
+    background-color: #E6E5E1;
+    border-radius: 50%;
+}
+
+.main-circle-wrap > .main-box-3 > p{
+    text-align: center;
+    font-size: 28px;
+    line-height: 4;
+}
+
+.main-circle-wrap > .main-box-3 > .circle > img{
+    width: 21%;
+    margin-left: 38%;
+    margin-top: 6%;
+}
+
+.main-circle-wrap > .main-box-3 > .circle > p{
+    text-align: center;
+    font-size: 35px;
+    line-height: 4;
+}
+
+
+
 
 .div-section{
     width: 100%;

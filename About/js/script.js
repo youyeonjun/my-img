@@ -6,42 +6,58 @@ $(document).ready(function(){
             start: "top center",
             offset: {
                 element: {
-                    x: 1000,
+                    x: 1,
                     y: 0.5
                 },
             }
         }
     });
     trigger.add('[data-trigger1]');
-    trigger.add('[data-trigger2]');
+
 
     gsap.registerPlugin(ScrollTrigger);
 
-    gsap.to(".main-box-1",{
+    gsap.to(".boxbox",{
         scrollTrigger: {
-            trigger: ".main-box-1",
+            trigger: ".boxbox",
         },
         x:400,
         rotation: 360,
-        opacity: 1,
         duration: 2
     });
 
-    gsap.to('.main-box-2', {
-        scrollTrigger: ".main-box-2",
-        opacity: 10,
-    })
-
-
-    gsap.to('.main-box-3', {
-        scrollTrigger: ".main-box-3",
-        left: 800,
-        rotation: 360,
-        opacity: 1,
-        duration: 2
-    })
+    var countOptions = {
+        useEasing: true ,
+        suffix: "%"
+    };
+    
+    var counthtml = new CountUp("html-number", 0, 90, 0, 2, countOptions);
+    var countcss = new CountUp("css-number", 0, 90, 0, 2, countOptions);
+    var countjs = new CountUp("js-number", 0, 85, 0, 2, countOptions);
+    var countps = new CountUp("ps-number", 0, 80, 0, 2, countOptions);
+    
     
 
+    $('.html-img').click(function(){
+        $('.html-box2').css({"width": "90%","transition": "1.8s"});
+        counthtml.start();
+    });
+    $('.css-img').click(function(){
+        $('.css-box2').css({"width": "90%","transition": "1.5s"});
+        countcss.start();
+    });
+    $('.js-img').click(function(){
+        $('.js-box2').css({"width": "85%","transition": "1.5s"});
+        countjs.start();
+    });
+    $('.ps-img').click(function(){
+        $('.ps-box2').css({"width": "80%","transition": "1.5s"});
+        countps.start();
+    });
+
+    
+
+    
     $(".header-wrap > .header-box > ul > li").mouseover(function(){
         
         var con__height ;

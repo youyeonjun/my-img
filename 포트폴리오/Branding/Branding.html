@@ -7,12 +7,12 @@
     <title>Document</title>
     <!-- 제일 위에는 ... 제이쿼리를 넣어 줘야 한다. -->
     <script src="./js/jquery-3.6.0.min.js"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
-    <script defer src="app.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <!-- 중간에는 폰트어썸 링크 // 웹폰트 // 슬릭같은 외부 제이쿼리 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.5/countUp.min.js"></script>
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/slick-theme.css">
     <script src="./js/slick.js"></script>
@@ -81,30 +81,27 @@
         </article>
     </div>
     
-    <div class="main-circle row">
-        <div class="main-circle1 cell">
-            <img src="./img/전구.png" alt="">
-            <p>Creative</p>
-        </div>
-        <div class="main-circle2 cell">
-            <img src="./img/전구.png" alt="">
-            <p>Enthusiastic</p>
-        </div>
-        <div class="main-circle3 cell">
-            <img src="./img/전구.png" alt="">
-            <p>Positive</p>
-        </div>
-    </div>
-
-    <div class="circle-text-wrap row">
-        <div class="circle-text1 cell">
+    <div class="main-circle-wrap">
+        <div class="main-box-1">
+            <div class="circle">
+                <img src="./img/전구.png" alt="">
+                <p>Creative</p>
+            </div>
             <p>“ ~를 ~게하면 어떨까 ? ”</p>
         </div>
-        <div class="circle-text2 cell">
-            <p>“ ~해보는게 어떨까? ”</p>
+        <div class="main-box-2">
+            <div class="circle">
+                <img src="./img/전구.png" alt="">
+                <p>Enthusiastic</p>
+            </div>
+            <p>“ ~를 ~게하면 어떨까 ? ”</p>
         </div>
-        <div class="circle-text3 cell">
-            <p>“ ~하면 ~할수 있을거같은데 ? “</p>
+        <div class="main-box-3">
+            <div class="circle">
+                <img src="./img/전구.png" alt="">
+                <p>Positive</p>
+            </div>
+            <p>“ ~를 ~게하면 어떨까 ? ”</p>
         </div>
     </div>
 
@@ -146,6 +143,7 @@
             <span>P</span>ositive
         </div>
     </div>
+
 
 </body>
 </html>
