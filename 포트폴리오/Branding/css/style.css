@@ -318,6 +318,18 @@ ul,li {
     margin-top: 180px;
 }
 
+[data-trigger3]{
+    opacity: 0;
+    position: relative;
+    bottom: 50px;
+    transition: 1s ease-out;
+}
+
+[data-trigger3].visible{
+    opacity: 1;
+    bottom: 0;
+}
+
 .color-wrap > .color-title{
     font-size: 60px;
     line-height: 210px;
@@ -349,6 +361,15 @@ ul,li {
     height: 150px;
     margin: 0 auto;
     margin-top: 165px;
+}
+
+[data-trigger4]{
+    opacity: 0;
+    transition: 2.4s ease-out;
+}
+
+[data-trigger4].visible{
+    opacity: 1;
 }
 
 .logo-wrap > .logo-c{

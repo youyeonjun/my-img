@@ -28,18 +28,22 @@ $(document).ready(function(){
 
     $('.html-img').click(function(){
         $('.html-box2').css({"width": "90%","transition": "1.8s"});
+        $('.html-text').css({"opacity": "1","transition": "2s"});
         counthtml.start();
     });
     $('.css-img').click(function(){
         $('.css-box2').css({"width": "90%","transition": "1.5s"});
+        $('.css-text').css({"opacity": "1","transition": "2s"});
         countcss.start();
     });
     $('.js-img').click(function(){
         $('.js-box2').css({"width": "85%","transition": "1.5s"});
+        $('.js-text').css({"opacity": "1","transition": "2s"});
         countjs.start();
     });
     $('.ps-img').click(function(){
         $('.ps-box2').css({"width": "80%","transition": "1.5s"});
+        $('.ps-text').css({"opacity": "1","transition": "2s"});
         countps.start();
     });
 

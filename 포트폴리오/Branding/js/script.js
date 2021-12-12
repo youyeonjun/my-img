@@ -14,6 +14,8 @@ $(document).ready(function(){
     });
     trigger.add('[data-trigger1]');
     trigger.add('[data-trigger2]');
+    trigger.add('[data-trigger3]');
+    trigger.add('[data-trigger4]');
 
     gsap.registerPlugin(ScrollTrigger);
 
